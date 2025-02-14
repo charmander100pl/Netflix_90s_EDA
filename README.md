@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
-This project performs an Exploratory Data Analysis (EDA) on Netflix's movie catalog, focusing on productions released in the 1990s. We use Python and specialized libraries to extract insights about trends and movie durations during this period.
+This project performs an Exploratory Data Analysis (EDA) on Netflix's movie catalog, focusing on productions released by 1990s. I used Python and specialized libraries to extract insights about trends and movie durations during this period.
 
 ## 📌 Features
 - Filtering movies released from 1990 onwards
