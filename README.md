@@ -9,6 +9,17 @@
 
 This project performs an Exploratory Data Analysis (EDA) on Netflix's movie catalog, focusing on productions released by 1990s. I used Python and specialized libraries to extract insights about trends and movie durations during this period.
 
+## Summary
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [EDA Architecture](#eda-architecture)
+- [Analysis](#analysis)
+  - [Distribution of Movie Durations (1990s)](#distribution-of-movie-durations-1990s)
+  - [Frequency of Movie Releases (1990s)](#frequency-of-movie-releases-1990s)
+  - [Most Common Movie Genres](#most-common-movie-genres)
+
+
 ## Features
 - Filtering movies released from 1990 onwards
 - Statistical analysis of movie durations
