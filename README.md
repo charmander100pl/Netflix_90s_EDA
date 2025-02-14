@@ -9,7 +9,7 @@
 
 This project performs an Exploratory Data Analysis (EDA) on Netflix's movie catalog, focusing on productions released by 1990s. I used Python and specialized libraries to extract insights about trends and movie durations during this period.
 
-## 📌 Features
+## Features
 - Filtering movies released from 1990 onwards
 - Statistical analysis of movie durations
 - Data visualization with histograms
@@ -17,14 +17,14 @@ This project performs an Exploratory Data Analysis (EDA) on Netflix's movie cata
 - Analysis of top directors and actors
 - Trends in movie releases over time
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python 3.x
 - Pandas
 - Matplotlib
 - NumPy
 - Jupyter Notebook
 
-## 📥 Installation and Execution
+## Installation and Execution
 1. Clone this repository:
    ```sh
    git clone https://github.com/DanMO23/Netflix_90s_EDA
@@ -44,7 +44,7 @@ This project performs an Exploratory Data Analysis (EDA) on Netflix's movie cata
    jupyter notebook
    ```
 
-## 📊 Dataset
+## Dataset
 The project uses the `netflix_data.csv` file, containing the following columns:
 
 | Column | Description |
@@ -116,10 +116,10 @@ graph TB
     style ImageStore fill:#2d2d2d,stroke:#fff
 ```
 
-## 📈 Analysis
+##  Analysis
 I have created various visualizations to explore different aspects of the dataset:
 
-### 🎞️ Distribution of Movie Durations (1990s)
+### Distribution of Movie Durations (1990s)
 ![Histogram of Movie Durations](images/duration_histogram.png)
 
 ```python
@@ -132,7 +132,7 @@ plt.title("Distribution of Movie Durations")
 plt.show()
 ```
 
-### 🕒 Frequency of Movie Releases (1990s)
+### Frequency of Movie Releases (1990s)
 ![Histogram of Movie Releases](images/release_frequency.png)
 
 ```python
@@ -143,7 +143,7 @@ plt.title("Frequency of Movies Released")
 plt.show()
 ```
 
-### 🎭 Most Common Movie Genres
+### Most Common Movie Genres
 ![Top Movie Genres](images/genre_barplot.png)
 
 ```python
@@ -158,17 +158,17 @@ plt.show()
 ```
 
 
-## 🚀 Future Improvements
+## Future Improvements
 - Adding sentiment analysis for movie descriptions
 - Expanding data visualization with interactive dashboards
 - Incorporating machine learning to predict movie success
 
-## 🤝 Contribution
+## Contribution
 If you wish to contribute, feel free to open an *issue* or submit a *pull request*.
 
-## 📜 License
+## License
 This project is under the MIT license.
 
 ---
-Developed by [Danilo Matos](https://github.com/DanMO23) 🚀
+Developed by [Danilo Matos](https://github.com/DanMO23) 
 
