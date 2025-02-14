@@ -1,5 +1,10 @@
 # 🎬 Netflix Movies - Exploratory Data Analysis (EDA)
-
+![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red.svg)
+![NumPy](https://img.shields.io/badge/NumPy-Array%20Processing-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 This project performs an Exploratory Data Analysis (EDA) on Netflix's movie catalog, focusing on productions released in the 1990s. We use Python and specialized libraries to extract insights about trends and movie durations during this period.
 
 ## 📌 Features
@@ -20,11 +25,11 @@ This project performs an Exploratory Data Analysis (EDA) on Netflix's movie cata
 ## 📥 Installation and Execution
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/netflix-eda.git
+   git clone https://github.com/DanMO23/Netflix_90s_EDA
    ```
 2. Navigate to the project directory:
    ```sh
-   cd netflix-eda
+   cd Netflix_90s_EDA
    ```
 3. Create a virtual environment and install dependencies:
    ```sh
