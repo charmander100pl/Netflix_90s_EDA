@@ -13,6 +13,7 @@ This project performs an Exploratory Data Analysis (EDA) on Netflix's movie cata
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Installation and Execution](#installation-and-execution)
 - [EDA Architecture](#eda-architecture)
 - [Analysis](#analysis)
   - [Distribution of Movie Durations (1990s)](#distribution-of-movie-durations-1990s)
