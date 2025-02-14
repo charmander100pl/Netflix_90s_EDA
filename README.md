@@ -61,47 +61,12 @@ The project uses the `netflix_data.csv` file, containing the following columns:
 | `description` | Description |
 | `genre` | Genre |
 
-## 📈 Example Analysis
-We created various visualizations to explore different aspects of the dataset:
 
-### 🎞️ Distribution of Movie Durations (1990s)
-![Histogram of Movie Durations](images/duration_histogram.png)
+## Arquitetura da EDA 
+Using a Jupyter Notebook container, it integrates components such as the DataLoader (Pandas) for data loading, the Visualizer (Matplotlib) for visualizations, the StatsEngine (NumPy) for statistical analysis, and the DataProcessor (Pandas) for data manipulation, allowing data analysts to efficiently and intuitively explore and understand data.
 
-```python
-import matplotlib.pyplot as plt
+The diagram below, created using Mermaid syntax, illustrates the architecture of the EDA environment. It shows the interaction between the data analyst and the various components within the Jupyter Notebook container. The components include the DataLoader for loading data, the Visualizer for creating visualizations, the StatsEngine for performing statistical analysis, and the DataProcessor for processing and manipulating data.
 
-plt.hist(movies_duration_1990, bins=100, color="#3498db", edgecolor="black", alpha=0.7)
-plt.xlabel("Duration (minutes)")
-plt.ylabel("Frequency")
-plt.title("Distribution of Movie Durations")
-plt.show()
-```
-
-### 🕒 Frequency of Movie Releases (1990s)
-![Histogram of Movie Releases](images/release_frequency.png)
-
-```python
-plt.hist(movie_filtered_1990["release_year"], bins=10, color="#e74c3c", edgecolor="black", alpha=0.7)
-plt.xlabel("Release Year")
-plt.ylabel("Frequency")
-plt.title("Frequency of Movies Released")
-plt.show()
-```
-
-### 🎭 Most Common Movie Genres
-![Top Movie Genres](images/genre_barplot.png)
-
-```python
-
-genre_counts = movies_df["genre"].value_counts().head(10)
-plt.bar(genre_label, short_movie_count_genre, color="#1498db", edgecolor="black", alpha=0.7)
-
-plt.xlabel("Number of Movies")
-plt.ylabel("Genre")
-plt.title("Most Common Movie Genres")
-plt.show()
-```
-### Arquitetura da EDA 
 ```mermaid
 graph TB
     User((Data Analyst))
@@ -149,6 +114,47 @@ graph TB
     style NotebookApp fill:#2d2d2d,stroke:#fff
     style CSVStore fill:#2d2d2d,stroke:#fff
     style ImageStore fill:#2d2d2d,stroke:#fff
+```
+
+## 📈 Example Analysis
+We created various visualizations to explore different aspects of the dataset:
+
+### 🎞️ Distribution of Movie Durations (1990s)
+![Histogram of Movie Durations](images/duration_histogram.png)
+
+```python
+import matplotlib.pyplot as plt
+
+plt.hist(movies_duration_1990, bins=100, color="#3498db", edgecolor="black", alpha=0.7)
+plt.xlabel("Duration (minutes)")
+plt.ylabel("Frequency")
+plt.title("Distribution of Movie Durations")
+plt.show()
+```
+
+### 🕒 Frequency of Movie Releases (1990s)
+![Histogram of Movie Releases](images/release_frequency.png)
+
+```python
+plt.hist(movie_filtered_1990["release_year"], bins=10, color="#e74c3c", edgecolor="black", alpha=0.7)
+plt.xlabel("Release Year")
+plt.ylabel("Frequency")
+plt.title("Frequency of Movies Released")
+plt.show()
+```
+
+### 🎭 Most Common Movie Genres
+![Top Movie Genres](images/genre_barplot.png)
+
+```python
+
+genre_counts = movies_df["genre"].value_counts().head(10)
+plt.bar(genre_label, short_movie_count_genre, color="#1498db", edgecolor="black", alpha=0.7)
+
+plt.xlabel("Number of Movies")
+plt.ylabel("Genre")
+plt.title("Most Common Movie Genres")
+plt.show()
 ```
 
 
