@@ -101,7 +101,55 @@ plt.ylabel("Genre")
 plt.title("Most Common Movie Genres")
 plt.show()
 ```
+#Arquitetura da EDA 
+```mermaid
+graph TB
+    User((Data Analyst))
 
+    subgraph "Data Analysis Environment"
+        subgraph "Jupyter Notebook Container"
+            NotebookApp["Jupyter Notebook<br>Python"]
+            
+            subgraph "Analysis Components"
+                DataLoader["Data Loader<br>Pandas"]
+                Visualizer["Visualization Engine<br>Matplotlib"]
+                StatsEngine["Statistical Analysis<br>NumPy"]
+                DataProcessor["Data Processor<br>Pandas"]
+            end
+        end
+
+        subgraph "Data Storage"
+            CSVStore["Movie Database<br>CSV"]
+            ImageStore["Visualization Storage<br>PNG"]
+        end
+    end
+
+    subgraph "Output Artifacts"
+        DurationHistogram["Duration Analysis<br>PNG"]
+        GenrePlot["Genre Distribution<br>PNG"]
+        ReleaseFreq["Release Frequency<br>PNG"]
+    end
+
+    User -->|Interacts with| NotebookApp
+    NotebookApp -->|Uses| DataLoader
+    DataLoader -->|Reads| CSVStore
+    
+    DataLoader -->|Processes data through| DataProcessor
+    DataProcessor -->|Analyzes with| StatsEngine
+    StatsEngine -->|Visualizes via| Visualizer
+    
+    Visualizer -->|Generates| DurationHistogram
+    Visualizer -->|Generates| GenrePlot
+    Visualizer -->|Generates| ReleaseFreq
+    
+    DurationHistogram -->|Stored in| ImageStore
+    GenrePlot -->|Stored in| ImageStore
+    ReleaseFreq -->|Stored in| ImageStore
+
+    style NotebookApp fill:#f9f,stroke:#333
+    style CSVStore fill:#fcf,stroke:#333
+    style ImageStore fill:#fcf,stroke:#333
+```
 
 
 ## 🚀 Future Improvements
