@@ -62,7 +62,7 @@ The project uses the `netflix_data.csv` file, containing the following columns:
 | `genre` | Genre |
 
 
-## Arquitetura da EDA 
+## EDA's Architecture
 Using a Jupyter Notebook container, it integrates components such as the DataLoader (Pandas) for data loading, the Visualizer (Matplotlib) for visualizations, the StatsEngine (NumPy) for statistical analysis, and the DataProcessor (Pandas) for data manipulation, allowing data analysts to efficiently and intuitively explore and understand data.
 
 The diagram below, created using Mermaid syntax, illustrates the architecture of the EDA environment. It shows the interaction between the data analyst and the various components within the Jupyter Notebook container. The components include the DataLoader for loading data, the Visualizer for creating visualizations, the StatsEngine for performing statistical analysis, and the DataProcessor for processing and manipulating data.
