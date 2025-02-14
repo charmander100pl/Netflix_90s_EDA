@@ -101,7 +101,7 @@ plt.ylabel("Genre")
 plt.title("Most Common Movie Genres")
 plt.show()
 ```
-#Arquitetura da EDA 
+### Arquitetura da EDA 
 ```mermaid
 graph TB
     User((Data Analyst))
@@ -146,9 +146,9 @@ graph TB
     GenrePlot -->|Stored in| ImageStore
     ReleaseFreq -->|Stored in| ImageStore
 
-    style NotebookApp fill:#f9f,stroke:#333
-    style CSVStore fill:#fcf,stroke:#333
-    style ImageStore fill:#fcf,stroke:#333
+    style NotebookApp fill:#2d2d2d,stroke:#fff
+    style CSVStore fill:#2d2d2d,stroke:#fff
+    style ImageStore fill:#2d2d2d,stroke:#fff
 ```
 
 
