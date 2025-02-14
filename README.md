@@ -1,4 +1,4 @@
-# 🎬 Netflix Movies - Exploratory Data Analysis (EDA)
+# Netflix Movies - Exploratory Data Analysis (EDA)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow.svg)
