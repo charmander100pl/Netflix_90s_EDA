@@ -164,5 +164,5 @@ If you wish to contribute, feel free to open an *issue* or submit a *pull reques
 This project is under the MIT license.
 
 ---
-Developed by [Your Name](https://github.com/DanMO23) 🚀
+Developed by [Danilo Matos](https://github.com/DanMO23) 🚀
 
