@@ -116,8 +116,8 @@ graph TB
     style ImageStore fill:#2d2d2d,stroke:#fff
 ```
 
-## 📈 Example Analysis
-We created various visualizations to explore different aspects of the dataset:
+## 📈 Analysis
+I have created various visualizations to explore different aspects of the dataset:
 
 ### 🎞️ Distribution of Movie Durations (1990s)
 ![Histogram of Movie Durations](images/duration_histogram.png)
